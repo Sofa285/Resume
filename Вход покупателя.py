@@ -1,4 +1,6 @@
 # Переход на страницу входа покупателя, проверка, заполнение полей и отправка формы
+
+    # Обращение к необходимым библиотекам
 from csv import writer
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
