@@ -1,4 +1,6 @@
 # Переход на страницу авторизации продавца, заполнение полей и отправка формы
+
+    # Обращение к необходимым библиотекам
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -16,7 +18,8 @@ def wait_of_element_located(xpath, driver):
     )
     return element
 def test_sing_in_vendor():
-
+    
+        # Настройка драйвера chrome: исключение переключателей, отключение логгирования
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
