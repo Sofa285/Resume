@@ -19,7 +19,8 @@ def wait_of_element_located(xpath, driver):
     )
     return element
 def test_sing_in():
- 
+    
+        # Настройка драйвера chrome: исключение переключателей, отключение логгирования
     options = webdriver.ChromeOptions()
     options.add_experimental_option("excludeSwitches", ["enable-logging"])
 
