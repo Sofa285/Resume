@@ -25,7 +25,7 @@ def first_test():
     service = Service(r'C:/Users/bubbler/chromedriver/chromedriver.exe')
     driver = webdriver.Chrome(service=service, options=options)
         # Переход на главную страницу сайта
-    driver.get("https://new.ruopt.com/?store_access_key=sdgd7sd7sdgsdg5hdfsdfhdf")
+    driver.get("https://")
         # Поиск элемента
     obratnaya_svyaz = driver.find_element("xpath", "/html/body/div[1]/div[4]/div[4]/div/div[1]/div/div/div/div[1]/div/div[2]/div/ul/li[2]/a")
         #  JavaScript для прокрутки страницы к элементу
