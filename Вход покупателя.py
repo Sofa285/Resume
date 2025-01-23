@@ -29,7 +29,7 @@ def test_sing_in():
     driver = webdriver.Chrome(service=service, options=options)
 
         # Переход на главную страницу сайта
-    driver.get("https://new.ruopt.com/?store_access_key=sdgd7sd7sdgsdg5hdfsdfhdf")
+    driver.get("https://")
 
         # Поиск элемента (бургер) и присваивание переменной
     burger_button = wait_of_element_located('//*[@id="sw_dropdown_84"]/i', driver)
